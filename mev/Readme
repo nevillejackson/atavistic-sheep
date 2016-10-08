@@ -1,0 +1,12 @@
+This directory contains the 'evolution paper' latex source files, and their
+translation to *.pdf files.
+
+This is the original 1988 document written in Latex2e.
+None of the Journal referees changes have been included.
+
+The *.tex files are Unix text files (ie linefeed but no carriage return).
+
+The images are in ./images.
+The *.tif files are the images as scanned.
+The *.png files are the images converted to .png files (Portable Network Graphics)
+   for use with latex.
