@@ -3,8 +3,10 @@ This project is about the recurring incidence of individuals with primitive shee
 
 ## Data showing the incidence of neo-primitive sheep in Merino flocks ##
 There is a manuscript ( see the evol.pdf file in the _projectname/mev_ directory) which was written in 1989 and has remained unpublished. It shows that neo-primitive individuals occur in some Merino stud flocks, in some selection experiments, and in unselected flocks. It is generally accepted among Australian Merino breeders that a flock will decline in productivity and wool quality, if it is not culled at all, or if it is selected in an inappropriate manner.
+The practice of _rogueing_ is an accepted procedure among plant breeders.
+It would seem that practical breeders accept atavism, but geneticists have a problem with the concept.
 
-## Is this a Merino-sheep-specific phenomenon or a universal phenomenon? ##
+##Is this a Merino-sheep-specific phenomenon or a universal phenomenon? ##
 We would welcome communication from anyone who has observed this phenomenon in other domesticated species.  What do breeders of other domesticated species think would happen under an inappropriate selection regime, and is it  a movement in the direction of their wild ancestors?
 
 The phenomenon was known to Darwin
