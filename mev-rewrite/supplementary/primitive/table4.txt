@@ -1,0 +1,10 @@
+ Vic. Fine Merino       , 1     , 20.7   , 19.1   , 1.08  , 17.3  , 0.0  , 0.0  , 81 
+ NSW Fine Merino        , 2     , 21.3   , 20.2  , 1.06  , 10.9  , 0.0  , 0.0  , 46 
+ NSW Fine Merino         , 3     , 20.3   , 20.1  , 1.02  ,  6.25 , 0.0  , 0.0  , 32 
+ Non-Peppin Medium Merino  ,  4 , 21.1   , 19.0  ,  1.07 ,  18.7 , 2.7  , 0.0  , 150 
+ Peppin Medium Merino   , 5     , 27.6   , 24.6  , 1.13  , 26.0  , 5.0  , 0.0  , 100 
+ Peppin Medium Merino   , 6     , 29.3   , 25.0  , 1.18  , 37.0  , 3.7  , 1.2  , 81 
+ Peppin Medium Merino   , 7     , 24.0   , 22.5  , 1.07  , 18.3  , 0.0  , 0.0  , 60 
+ Peppin Medium Merino   , 8     , 25.6   , 22.6  , 1.12  , 19.7  , 7.6  , 0.0  , 66 
+ Peppin Medium Merino   , 9     , 24.4   , 20.7  , 1.18  , 32.9  , 1.3  , 0.0  , 76 
+ Strong Merino          , 10    , 30.1  ,  23.8 ,  1.32 ,  68.0 , 16.0 , 4.0  , 50 

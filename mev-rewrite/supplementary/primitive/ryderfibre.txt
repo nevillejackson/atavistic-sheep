@@ -1,0 +1,8 @@
+Breed, Mean_outercoat, Mean_undercoat
+Wild Mouflon, 144, 14, NA
+Hairy Medium Wool, NA, NA, 36.9
+Generalised Medium Wool, NA, NA, 24.4
+True Hairy, NA, NA, 30
+Longwool, NA, NA, 42.3
+Shortwool, NA, NA, 47.5
+Finewool, NA, NA, 22.5

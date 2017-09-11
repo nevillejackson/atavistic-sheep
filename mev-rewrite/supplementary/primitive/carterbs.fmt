@@ -1,0 +1,19 @@
+carterbs           H.B.Carter's breed survey skin data
+carterbs     1-2   experimental flock number
+carterbs     3-4   flock number in carter's paper
+carterbs     6-12  sheep number ... left justified
+carterbs    13-16  sample/slide number
+carterbs    17-19  np+ns     (f3.1)
+carterbs    20-21  np        (f2.1)
+carterbs    22-24  np+ns/np  (f3.1)  ... ns/np for some ... ns/np = np+ns/np - 1
+carterbs    25-26  p%        (f2.1)
+carterbs    27-30  Dp        (f4.2)
+carterbs    31-34  Ds        (f4.2)
+carterbs    35-38  D         (f4.2)
+carterbs    39-41  Dp/Ds     (f3.2)
+carterbs     43    margaret's coding for >1.2, >1.5, >1.8 for Dp/Ds
+carterbs    45-47  000 < 1.2; 100 >1.2 <1.5; 110 >1.5 <1.8; 111 >1.8
+carterbs    50-52  % shed follicles  (f3.1)    [flock 0000 only]
+carterbs     80    sex                         [flock 0000 only]
+carterbs           nb. flock 0000 f3.1 for Dp,Ds & D ... "0" added to make f4.2
+carterbs               these are extra records for rambouillet sampled 1964

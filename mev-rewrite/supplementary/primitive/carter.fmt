@@ -1,0 +1,24 @@
+carter        HB CARTER FLOCK - means of skin & wool data made for N.J. Aug.'87
+carter
+carter     1-2   flock no.
+carter     3-5   wool   (dry wt.)
+carter     6-8   wax      "  "
+carter     9-11  swint    "
+carter    12-14  t.s.p
+carter    15-17  %wool
+carter    18-20  %wax
+carter    21-23  %swint
+carter    24-26  S.L.
+carter    27-29  diameter
+carter    30-32  density
+carter    33-35  crimps
+carter    36-38  np+ns
+carter    39-40  np
+carter    41-43  ratio(ns/np)
+carter    44-47  diam.p
+carter    48-50   "   s
+carter    51-53   "   p+s
+carter    54-56  ratio dp/ds
+carter       60  code
+carter
+carter
