@@ -5,3 +5,4 @@
 *.log
 *.toc
 mev/images/unused/*
+*.pnm
