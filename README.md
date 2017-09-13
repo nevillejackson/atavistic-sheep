@@ -2,7 +2,7 @@
 This project is about the recurring incidence of individuals with primitive sheep characteristics in Australian Merino sheep flocks. Why does it occur? There is no accepted mechanism in quantitative genetics to explain why a purebred domesticated population would revert toward its wild ancestors. 
 
 ## Data showing the incidence of neo-primitive sheep in Merino flocks ##
-There is a manuscript ( see the evol.pdf file in the _projectname/mev_ directory) which was written in 1989 and has remained unpublished. It shows that neo-primitive individuals occur in some Merino stud flocks, in some selection experiments, and in unselected flocks. There is a rewrite of this manuscript being undertaken by Dr Philip Moore, and the rewrite files are available in the _projectname/mev-rewrite_ directory. 
+There is a manuscript ( see the evol.pdf file in the _mev_ subdirectory) which was written in 1989 and has remained unpublished. It shows that neo-primitive individuals occur in some Merino stud flocks, in some selection experiments, and in unselected flocks. There is a rewrite of this manuscript being undertaken by Dr Philip Moore, and the rewrite files are available in the _mev-rewrite_ subdirectory. 
 
  It is generally accepted among Australian Merino breeders that a flock will decline in productivity and wool quality, if it is not culled at all, or if it is selected in an inappropriate manner.
 The practice of _rogueing_ is an accepted procedure among plant breeders.
