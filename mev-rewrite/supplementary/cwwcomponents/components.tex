@@ -1,0 +1,196 @@
+%
+% Draft  document components.tex
+% Defines components of clean wool weight to include variance of fibre diameter
+% Looks at how Dp and Ds contribute to variance of diameter
+%
+ 
+\documentclass[titlepage]{article}  % Latex2e
+\usepackage{graphicx,lscape,subfigure}
+\usepackage{bm,longtable}
+\usepackage{textcomp}
+ 
+
+\title{Components of clean wool weight, a restatement incorporating the variance of fibre diameter}
+\author{Neville Jackson}
+\date{14 Sep 2017} 
+
+ 
+\begin{document} 
+
+
+ 
+\maketitle      
+\tableofcontents
+
+$\newcommand{\E}{\mathrm{E}}$
+$\newcommand{\Var}{\mathrm{Var}}$
+$\newcommand{\Cov}{\mathrm{Cov}}$ 
+$\newcommand{\SD}{\mathrm{SD}}$ 
+
+\clearpage
+\section{Introduction} 
+There was an omission from the document Jackson, Maddocks, Lax, Moore, and Watts (1990)~\cite{jack:90}. The argument that the variance of fibre diameter between fibres within a sheep was a component of clean wool weight, and that therefore any unamended selection for clean wool weight would lead to an increase in the variance of fibre diameter, as well as an increase in mean fibre diameter, was not made. 
+
+We correct this omission here. We argue that all the physical compnents of clean wool weight will have positive genetic correlation with it, and will therefore increase under selection to increase clean wool weight, unless preventative measures are taken.
+
+We also look at how the diameters of primary and secondary fibres contribute to the variance of fibre diameter, and attempt to analyse what will happen to these under clean wool weight selection. We do this just from the physical equations. We look at genetic parameters and what they imply in another supplementary document (Jackson(2017)~\cite{jack:17}
+
+\section{The components equation}
+The original components of clean wool weight equation developed by Turner(1956)~\cite{turn:56} and Turner(1958)~\cite{turn:58} was
+\begin{displaymath}
+ W = S R N A hL \rho
+\end{displaymath}
+where
+\begin{description}
+\item[W] is clean wool weight per head (Kg)
+\item[S] is smooth body surface area ($m^{2}$)
+\item[R] is wrinkling factor
+\item[N] is number of fibres per unit skin area (no per $mm^{2}$)
+\item[A] is average fibre cross sectional area ($\mu m ^{2}$)
+\item[L] is average staple length (mm)
+\item[hL] is average fibre length (mm)
+\item[$\rho$] is specific gravity of wool
+\end{description}
+
+This definition is sound. The problems are with measurement. Smooth body surface area is typically estimated from body weight ($B$) as
+\begin{displaymath}
+S = k_{1} B^{0.67}
+\end{displaymath}
+and the unitless wrinkle factor ($R$) is estimated from a subjective wrinkle score ($Wr$) as
+\begin{displaymath}
+R = k_{2} Wr^{q}
+\end{displaymath}
+the constant ($q$) being estimated empirically to be $0.2$.
+
+However the biggest measurement problem is with cross-sectional ares ($A$). All commonly used fibre measurement techniques measure fibre diameter, not cross-sectional area.  The mean fibre cross-sectional area is related to the mean fibre diameter as follows
+\begin{displaymath}
+A = \frac{\pi}{4}[D^{2} + Var{(D)}]
+\end{displaymath}
+where 
+\begin{description}
+\item[D] is mean fibre diameter
+\item[Var{(D)}] is variance of fibre diameter between fibres within sheep
+\end{description}
+
+So it is possible to rewrite the component equation as
+\begin{displaymath}
+W = S R N \left[ \frac{\pi}{4}[D^{2} + Var{(D)}]\right] hL \rho
+\end{displaymath}
+
+Dr Turner knew about this form of the equation, incorporating the mean diameter squared and the variance of diameter between fibres, but nothing was ever done about it because of measurement difficulties. It was argued that with a coefficient of variation of fibre diameter of less than 20 percent, the error of omitting $Var{(D)}$ would be 4 percent or less, and could be neglected.  We need to re-examine this argument. Small errors tend to cumulate under selection.
+
+\section{How important is the $Var{(D)}$ component?}
+That argument about error of omitting $Var{(D)}$ being less than 4 percent if the coefficient of variation is less than 20 percent comes from the equation
+\begin{displaymath}
+A = \frac{\pi}{4}[D^{2} + Var{(D)}]
+\end{displaymath}
+If we write $Var{(D)} = CV^{2} D^{2}$ and if $CV=0.2$ then $CV^{2} = 0.04$ so $Var{(D)}$ is 4 percent of $D^{2}$. 
+
+But that is only relevanyt to how much $A$ changes when $D^{2}$ changes for a given $CV$. What we want to know is the reverse - how much do $D$ and $Var{(D)}$ change when we change $W$ ? To answer that we should take the components equation and differentiate it with respect to $D$, and with respect to $Var{(D)}$. The two derivatives are 
+\begin{eqnarray*}
+\frac{\partial W}{\partial D} & = & 2 S R \frac{\pi}{4} h L \rho \\
+\frac{\partial W}{\partial Var{(D)}} & = & S R \frac{\pi}{4} h L \rho
+\end{eqnarray*}
+These are partial derivatives, holding all other variables constant. 
+The derivative with respect to $D$ is twice that with respect to $Var{(D)}$. So a 1 $\mu$ change in $D$ has twice the effect on $W$ as a 1 $\mu^{2}$ change in $Var{(D)}$, other things being equal.
+
+It is probably better to express this in standard deviations. If we write 
+\begin{displaymath}
+A = \frac{\pi}{4}[D^{2} + SD{(D)}^{2}]
+\end{displaymath}
+then the derivative of $W$ with respect to $D$ is exactly the same as the derivative of $W$ with respect to $SD{(D)}$. So a change in $W$ which led to a 1 $\mu$ change in mean $D$ would also lead to a 1 $\mu$ change in $SD{(D)}$. 
+
+Or we can say it the other way around - a 1 $\mu$ change in mean $D$ and a 1 $\mu$ change in $SD{(D)}$ both have the same effect on $W$, other things being equal.
+
+So that is much more important than the 4 percent figure indicated. The mean and standard deviation of diameter are equally important as components. The variance of diameter is half as important as the mean diameter.
+
+
+\section{Consequences of ignoring variance of fibre diameter}
+This is a question that is best answered with either genetic parameter estimates or a selection experiment. However we can get some indications by reorganising the components equation. 
+
+\section{ How do diameters of primary and secondary fibres contribute to the variance of fibre diameter?}
+
+
+\clearpage
+\begin{thebibliography}{99}
+
+\bibitem{brow:68}
+Brown, G.H., and Turner, Helen Newton. (1968) Response to selection in Australian Merino sheep. II. Estimates of phenotypic and genetic parameters for some production traits in Merino ewes and an analysis of the possible effects of selection on them. Aust. J. Agric. Res. 19:303-22
+
+\bibitem{cart:43}
+Carter, H.B. (1943) Studies in the biology of the skin and fleece of sheep. CSIRO (Aust) Bull. No. 164
+
+\bibitem{cart:68}
+Carter,H.B. (1968) Comparative Fleece Analysis Data for Domestic Sheep. The Principal Fleece Staple Values of Some Recognised Breeds. Agricultural Research Council, 1968
+ 
+\bibitem{fras:53}
+Fraser, A.S. (1953) A note on the growth of Rex and Angora coats. J. Genetics 521:237-42
+
+\bibitem{fras:60}
+Fraser A.S and Short B.F. (1960) The Biology of the Fleece. Animal Research Laboratories Technical Paper No 3. CSIRO Melbourne 1960.
+
+\bibitem{jack:75}
+Jackson, N., Nay, T, and Turner, Helen Newton (1975) Response to selection in Australian Merino sheep. VII Phenotypic and genetic parameters for some wool follicle characteristics and their correlation with wool and body traits. Aust. J. Agric. Res. 26:937-57
+
+\bibitem{jack:15}
+Jackson, N. (2015) Genetic relationship betweeen skin and wool traits in Merino sheep. Incomplete manuscript.
+
+\bibitem{jack:16}
+Jackson, N. and Watts, J.E. (2016) Staple crimp formation in the fleece of Merino sheep. Unpublished manuscript, 18 May 2016.
+
+\bibitem{jack:15a}
+Jackson, N. (2017) Genetic relationship between skin and wool traits in Merino sheep. Unpublished document.
+
+\bibitem{jack:17}
+Jackson, N. (2017) Genetics of primary and secondary fibre diameters and densities in Merino sheep. URL https://github.com/nevillejackson/atavistic-sheep/mev-rewrite/supplementary/genetic-parameters/psparam.pdf
+
+\bibitem{jack:90}
+Jackson, N., Maddocks, I.G., Lax, J., Moore, G.P.M. and Watts, J.E. (1990) Merino Evolution, Skin Characteristics, and Fleece Quality. URL https://github.com/nevillejackson/atavistic-sheep/mev/evol.pdf 
+
+\bibitem{mass:07}
+Massy, C.(2007) The Australian Merino. Random House, Sydney, 2007
+\bibitem{moor:89}
+Moore G.P.M., Jackson, N., and Lax, J. (1989) Evidence of a unique developmental mechanism specifying bot wool follicle density and fibre size in sheep selected for single skin and fleece characters. Genet. Res. Camb. 53:57-62
+
+\bibitem{moor:98}
+Moore, G.P.M., Jackson, N., Isaacs, K., and Brown, G (1998) J. Theoretical Biology 191:87-94
+
+
+\bibitem{nayj:73}
+Nay, T. and Jackson, N. (1973) Effect of changes in nutritional level on the depth and curvature of wool follicles in Australian Merino sheep. Aust. J. Agric. Res. 24:439-447
+
+\bibitem{onio:62}
+Onions, W.J. (1962) Wool: an introduction to its properties, varieties, uses
+     and production. Ernest Benn limited, London, 1962
+
+\bibitem{rprog:13}
+R Core Team (2013). R: A language and environment for statistical
+  computing. R Foundation for Statistical Computing, Vienna, Austria.
+  ISBN 3-900051-07-0, URL http://www.R-project.org/.
+
+\bibitem{ryde:81}
+Ryder, M.L. (1981) A Survey of European Primitive Breeds of Sheep. Ann. Genet. Sel. anim. 13(4):381-418
+
+\bibitem{ryde:92}
+Ryder, M.L. (1992) The interaction between biological and technological change during the development of different fleece types in sheep. Anthropozoologica 16:131-140
+
+\bibitem{turn:56} 
+Turner, Helen Newton (1956) Anim. Breed. Abstr. 24:87-118
+
+\bibitem{turn:58}
+Turner, Helen Newton(1958) Aust. J. Agric. Res. 9:521-52
+
+\bibitem{turn:53}
+Turner, Helen Newton, Hayman, R.H., Riches, J.H., Roberts, N.F., and Wilson, L.T. (1953) Physical definition of sheep and their fleece for breeding and husbandry studies: with particular reference to Merino sheep. CSIRO Div. Anim. Hlth. Prod. Div. Rept. No. 4 (Ser SW-2 mimeo)
+
+
+\bibitem{turn:70}
+Turner, Helen Newton, Brooker M.G. and Dolling, C.H.S (1970) Response to selection in Australian Merino sheep. III Single character selection for high and low values of wool weight and its components. Aust.J.Agric.Res. 21:955-84
+
+\bibitem{vonb:48}
+Von Bergen, W. and Mauersberger, H.R.(1948) American Wool Handbook. 2nd ed. Barnes, New York.
+
+\bibitem{watt:17}
+Watts, J.E. (2017) Personal communication.
+\end{thebibliography}
+\end{document}
