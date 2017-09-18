@@ -1,0 +1,39 @@
+%\documentclass{article}
+%\usepackage{lscape,longtable}
+%\begin{document}
+\begin{center}
+\begin{landscape}
+\begin{longtable}{p{1.5in}|p{0.8in}|p{1.5in}|p{1.0in}|p{2.5in}}
+\caption{Definition of traits measured}  \\
+\hline
+\label{tab:traits}
+    Trait name & Abbreviation  & Units & Age measured  &  Description \\ 
+\hline
+\endfirsthead
+\multicolumn{5}{c}%
+{\tablename\ \thetable\ -- \textit{Continued from previous page}} \\
+\hline
+    Trait name & Abbreviation  & Units & Age measured  &  Description \\ 
+\hline
+\endhead
+\hline
+\multicolumn{5}{r}{\textit{Continued on next page}} \\
+\endfoot
+\hline
+\endlastfoot
+%\env{longtable}[p{1.5in}|p{0.8in}|p{1.5in}|p{1.0in}|p{2.5in}]
+ Clean wool weight & Cww & Kg & 14 months & Weight of clean fibre at 16\% regain \\
+ Follicle number per unit area & Fnua & no per $mm_{2}$ & 14 months & No of primary and secondary follicles per $mm_{2}$ from skin biopsy \\
+ Follicle $S/P$ ratio & Fr & no units & 14 months & Ratio of no of primary to no of secondary follicles from skin biopsy \\
+  Birthcoat score back & Bctb & score 1-6 (1=no halo hairs on mid backline, 6=dense halo hairs) & day of birth & Score for density of halo hairs on mid backline on day of birth \\
+  No of lambs born & NLB & no & day of birth & Number of lambs in litter at birth \\
+  No of lambs weaned & NLW & no & approx 4 months & Number of lambs in litter at weaning \\
+  Mean diameter of primaries & Dp & microns & 14 months & Mean diameter of primary fibres from biopsy and horizontal section \\
+  Mean diameter of secondaries & Ds & microns & 14 months & Mean diameter of secondary fibres from biopsy and horizontal section \\
+  Mean diameter of primaries and secondaries & Dps & microns & 14 months & Mean diameter of primary and secondary fibres from biopsy and horizontal section \\
+  Primary to secondary diameter ratio & DpovDs & no units & 14 months & Ratio of mean diameter of primary fibres to mean diameter of secondary fibres \\
+
+\end{longtable}
+\end{landscape}
+\end{center}
+%\end{document}
