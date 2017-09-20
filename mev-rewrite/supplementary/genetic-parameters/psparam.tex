@@ -45,6 +45,24 @@ The subset of traits covered here are summarized in Table~\ref{tab:traits}
 The statistical techniques used for estimation of parameters for these data are covered in Jackson (2015)~\cite{jack:15}.  The software used is called {\em dmm}, which runs as a package under the R statistical language ~\cite{}. {\em dmm} is documented in a user's guide (Jackson(2015b)~\cite{jack:15b}).
 
 \section{Results}
+All parameter estimates are presented with a standard error estimate and the upper and lower bounds of a 95 percent confidence interval.
+\subsection{heritabilities}
+Estimates of heritability for the 13 traits are given in Table~\ref{tab:herit}
+\input{tabherit.tex}
+The heritability estimates for density and ratio are somewhat different from those of Jackson, Nay, and Turner (1975)~\cite{jack:75}. Estimates for Fnua and Fr are lower than previous estimates. However  for Cww and Dps estimates agree with other published values ( see Turner and Young (1969)~\cite{turn:69}). The high estimates for Bctb and DpovDs are surprising, but given that estimates for other traits are reasonable , we have to accept them. The estimates for Dp and Ds and their standard deviations are new - there are no other published values, but their magnitude looks reasonable given that most wool traits have about a 40 perent heritability. We would expect lower values for NLB and NLW so the 20 percent values are quite acceptable.
+
+\subsection{genetic correlations}
+The additive genetic correlation estimates for all pairs of the 13 traits are presented in Table~\ref{tab:rgen}.
+\input{tabrgen.tex}
+The genetic correlations involving Dp are most relevent. Dp is not genetically correlated with either Ds or Cww or Fnua.  This indicates that Dp and Ds can be changed independently. Dp is strongly genetically correlated with Bcts, SDDp, and DpovDs. Dp also has a moderate genetic correlation with the fertility traits NLB and NLW.  This supports the argument that Dp  is in some way related to fitness.
+
+The genetic correlations involving Ds are different to those involving Dp. Ds has a strong positive genetic correlation with Cww, and a strong negative genetic correlation with Fnua. Selection for Cww will increase Ds, but not Dp. Ds has weak negative genetic correlations with Bctb and the fertility traits (NLB and NLW). Ds is positively correlated with its standard deviation (SDDs).
+
+The other correlations of interest are between Cww and SDDp, which is close to zero, and between Cww and SDDs which is medium positive. So Cww selection will change both the mean (Ds) and standard deviation(SDDs) of the secondary fibres, but the primary fibres will not be affected in either mean (Dp) or standard deviation (SDDp).  This goes against what has been said (Jackson et al (1990)~\cite{jack:90}) about Cww selection possibly being one of the factors which can cause primitive individuals to appear in a flock.  What the parameters say is that Cww selection without amendments will lead to coarse fibres and a broader distribution of diameter, but this will come from the secondary fibres getting coarser, bot the primaries. Other factors must be involved when we observe individuals with coarse primary fibres. It would seem, from the parameters, that these other factors might be fitness related, because the present genetic correlations suggest that sheep with coarse primaries are more fertile and better survivors.
+
+\subsection{phenotypic variances and covariances}
+\subsection{phenotypic correlations}
+\subsection{environmental correlations}
 
 \section{Discussion}
 
@@ -124,6 +142,8 @@ Turner, Helen Newton(1958) Aust. J. Agric. Res. 9:521-52
 \bibitem{turn:53}
 Turner, Helen Newton, Hayman, R.H., Riches, J.H., Roberts, N.F., and Wilson, L.T. (1953) Physical definition of sheep and their fleece for breeding and husbandry studies: with particular reference to Merino sheep. CSIRO Div. Anim. Hlth. Prod. Div. Rept. No. 4 (Ser SW-2 mimeo)
 
+\bibitem{turn:69}
+Turner, Helen Newton (1969) Quantitative Genetics and Sheep Breeding. Macmillan, Melbourne, 1969
 
 \bibitem{turn:70}
 Turner, Helen Newton, Brooker M.G. and Dolling, C.H.S (1970) Response to selection in Australian Merino sheep. III Single character selection for high and low values of wool weight and its components. Aust.J.Agric.Res. 21:955-84
