@@ -5,7 +5,7 @@ Somehow out of this mishmash of Word and Latex documents  will emerge a rewrite 
 
 This work has now been published. It is available here
 
-http://dx/doi.org/10.1017/S0016672320000063
+http://dx.doi.org/10.1017/S0016672320000063
 
 ## File index ##
 * .doc files removed for publication
